@@ -7,7 +7,7 @@ import tensorflow as tf
 # Load .csv dataset
 def pre_data():
     
-    with open("/Users/tony/Desktop/RS code/dataset/dataset-train-diginetica/train-item-views.csv", "r") as f:
+    with open("./dataset/dataset-train-diginetica/train-item-views.csv", "r") as f:
         reader = csv.DictReader(f, delimiter=';')
         sess_clicks = {}
         sess_date = {}
